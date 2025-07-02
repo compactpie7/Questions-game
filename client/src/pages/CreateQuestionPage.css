@@ -1,0 +1,49 @@
+.create-question__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.create-question__from-wrapper {
+    padding: 3.5rem 7rem;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-input {
+    width: 20rem;
+    padding: 1rem;
+    background: #DAAD86;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+
+.form-input:active,
+.form-input:focus-visible {
+    background: #c99c74;
+}
+
+.form-input::placeholder {
+    color: rgba(0, 0, 0, .5);
+    font-weight: initial;
+    /* For modern browsers */
+    opacity: 1;
+    /* Ensures full opacity in Firefox */
+}
+
+.form-input::-ms-input-placeholder {
+    /* For IE/Edge */
+    color: rgba(0, 0, 0, .5);
+    font-weight: initial;
+}

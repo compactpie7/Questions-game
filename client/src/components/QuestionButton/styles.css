@@ -1,0 +1,15 @@
+.question-button {
+    padding: 1rem;
+    background: #DAAD86;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+
+.question-button:hover {
+    color: #FBEEC1;
+}

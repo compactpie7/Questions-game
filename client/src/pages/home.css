@@ -1,0 +1,33 @@
+.home {
+    text-align: center;
+}
+
+.home__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.main__button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem
+}
+
+.passed-button {
+    padding: 1rem;
+    background: #2fa759;
+    border-radius: 0.3rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+
+.passed-button:hover {
+    color: #FBEEC1;
+}
